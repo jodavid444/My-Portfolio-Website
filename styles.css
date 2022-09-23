@@ -39,9 +39,10 @@ header {
 
 #logo {
   margin-left: 10px;
-  font-size: 23px;
+  font-size: 18px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
+  line-height: 24px;
 }
 
 #logo a {
@@ -54,12 +55,16 @@ header {
   font-size: 24px;
 }
 
+.fa-bars {
+  font-size: 16px;
+}
+
 nav {
   font-size: 23px;
   margin-right: 30px;
 }
 
-#main h1 {
+.hero h1 {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -69,7 +74,7 @@ nav {
   letter-spacing: 0.37px;
 }
 
-#main h2 {
+.hero h2 {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -87,7 +92,7 @@ nav {
   color: #ffff;
 }
 
-#main {
+.hero {
   background-color: #1c1a19;
   padding: 130px 25px 150px;
   background-image: url("images/illustration-header-mobile.png");
