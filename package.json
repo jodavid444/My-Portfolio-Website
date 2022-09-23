@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jodavid444/Portfolio/issues"
   },
-  "homepage": "https://github.com/jodavid444/Portfolio#readme"
+  "homepage": "https://github.com/jodavid444/Portfolio#readme",
+  "devDependencies": {
+    "hint": "^7.1.2"
+  }
 }
