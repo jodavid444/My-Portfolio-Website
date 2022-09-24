@@ -320,14 +320,13 @@ button:hover {
 
 #about h1 {
   text-align: center;
-  color:#ff6b00;
-  font-family: 'Crete Round';
+  color: #ff6b00;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.37px;
-
 }
 
 .description {
