@@ -448,8 +448,10 @@ textarea {
 .footer-btn-con {
 text-align: center;
 border-bottom: 1px solid #DFE1E6;
-width: 375px;
+width: 330px;
+margin: 0 ;
 padding-bottom: 100px;
+
 }
 
 .footer-btn {
@@ -458,7 +460,6 @@ padding-bottom: 100px;
   margin: 4px;
 
 }
-
 
 .footer-social {
   display: flex;
