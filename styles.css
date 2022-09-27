@@ -118,7 +118,7 @@ nav {
   margin-top: 50px;
 }
 
-.work-title h2 {
+.work-title1 h2 {
   font-family: 'Crete Round', sans-serif;
   font-weight: 400;
   font-size: 40px;
@@ -254,7 +254,7 @@ hr {
   margin-right: 0;
 }
 
-button {
+button  {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -382,3 +382,94 @@ button:hover {
 .list-3 h4::before {
   content: "🟠";
 }
+
+
+.contact-section .contact-contect {
+  background: #E5E5E5;
+  margin: 50px 0;
+}
+.contact-text {
+  width: 300px;
+  margin: 0 auto ;
+}
+.contact-text h4 {
+  padding: 60px 0 10px;
+  text-align: center;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: #172B4D;
+}
+
+.contact-info {
+width: 357px;
+margin: 0 auto;
+
+
+}
+
+.contact-info input {
+  border: none;
+  outline: none;
+}
+
+::placeholder{
+  position: relative;
+  left: 15px;
+}
+
+
+.contact-info input {
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 30px;
+margin: 15px 0;
+border-bottom: 1px solid #DBD8D7;
+width: 327px;
+}
+
+textarea {
+  width: 327px;
+  margin-top: 30px;
+  background: #FBF8F7;
+  outline: none;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+}
+  
+.footer-btn-con {
+text-align: center;
+border-bottom: 1px solid #DFE1E6;
+width: 375px;
+padding-bottom: 100px;
+}
+
+.footer-btn {
+  padding: 10px;
+  text-align: center;
+  margin: 4px;
+
+}
+
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social .fa-brands {
+  color: #505F79;
+}
+
+.footer-social .fa-solid {
+  color: #505F79;
+}
+
