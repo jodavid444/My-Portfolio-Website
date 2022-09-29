@@ -1,18 +1,18 @@
 body {
   box-sizing: border-box;
-  width: 375px;
+   width: 375px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-}
+} 
 
 ul {
   padding-left: 0;
   list-style-type: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 320px) {
   p {
     line-height: 24px;
   }
@@ -35,6 +35,10 @@ header {
   align-items: center;
   height: 80px;
   width: 375px;
+}
+
+.header-nav {
+  display: none;
 }
 
 #logo {
@@ -100,7 +104,7 @@ nav {
   background-position: bottom  right;
 }
 
-.social-media1 {
+.social-media11 {
   display: flex;
   column-gap: 1.25rem;
   font-size: 24px;
@@ -470,3 +474,96 @@ textarea {
 .footer-social .fa-solid {
   color: #505f79;
 }
+
+
+
+@media (min-width: 768px) {
+  body {
+    box-sizing: border-box;
+    width: 100vw;
+    margin: 0;
+  }
+  /* } 
+header,
+#header_content {
+  background: #3c3a39;
+}
+
+header {
+  height: 72px;
+}
+
+#header_content {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  padding: 0 90px;
+}
+
+
+#logo {
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+.fa-bars {
+  display: none;
+}
+
+.header-nav{
+  display: flex;
+  margin-right: 50px;
+}
+
+.header-nav li {
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+margin: 0 20px;
+} */
+
+/* 
+.hero {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  background-image: url("images/Illustration-header\ desktop.png");
+  background-size: contain;
+}
+ /* */
+/* .hero {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.hero h2{
+height: 72px;
+  
+}
+.hero h1 {
+width: 450px;
+height: 160px;
+font-family: 'Crete Round';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 82px;
+}
+.description1 {
+width: 566px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+}  */
