@@ -382,6 +382,19 @@ form textarea {
 
 ul > li > input {
   border-bottom: 1px solid #dbd8d7;
+textarea {
+  width: 327px;
+  margin-bottom: 20px;
+  margin-top:20px;
+  background: #fbf8f7;
+  outline: none;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 25px;
+
 }
 
 form textarea {
