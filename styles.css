@@ -368,22 +368,15 @@ article {
   overflow: hidden;
 }
 
-form input,
-form textarea {
-  width: 100%;
-  outline: none;
-  border: none;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  padding: 1rem 0.5rem;
-}
+
 
 ul > li > input {
   border-bottom: 1px solid #dbd8d7;
-  }
-  textarea {
+}
+
+
+
+textarea {
   width: 327px;
   margin-bottom: 20px;
   margin-top:20px;
@@ -395,7 +388,18 @@ ul > li > input {
   font-weight: normal;
   font-size: 12px;
   line-height: 25px;
+}
 
+  form input,
+  form textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 1rem 0.5rem;
 }
 
 form textarea {
@@ -426,7 +430,7 @@ footer .social-media::after {
   background: #0d151e;
   border-radius: 10px;
   bottom: 10px;
-}
+  }
 
 @media (min-width: 768px) {
 
@@ -443,7 +447,7 @@ footer .social-media::after {
     color: #fff;
   }
 
-  #tools li {
+ #tools li {
     text-align: left;
   }
 
