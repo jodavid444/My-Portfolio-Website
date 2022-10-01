@@ -382,7 +382,8 @@ form textarea {
 
 ul > li > input {
   border-bottom: 1px solid #dbd8d7;
-textarea {
+  }
+  textarea {
   width: 327px;
   margin-bottom: 20px;
   margin-top:20px;
