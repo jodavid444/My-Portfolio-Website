@@ -213,7 +213,6 @@ ul > li {
   background-repeat: no-repeat;
   margin: 30px 0;
   padding-bottom: 0;
-  transition: all 0.4s linear;
 }
 
 .bg-img:hover {
@@ -380,7 +379,7 @@ form textarea {
   padding: 1rem 0.5rem;
 }
 
-ul > li > input {
+ul li input {
   border-bottom: 1px solid #dbd8d7;
 }
 
@@ -415,7 +414,6 @@ footer .social-media::after {
 }
 
 @media (min-width: 768px) {
-
   #header_content {
     padding: 0 90px;
   }
@@ -432,7 +430,6 @@ footer .social-media::after {
   #tools li {
     text-align: left;
   }
-
 
   #nav-links li a {
     color: #fff;
