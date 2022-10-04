@@ -379,13 +379,11 @@ form textarea {
   padding: 1rem 0.5rem;
 }
 
-
 ul li input {
   border-bottom: 1px solid #dbd8d7;
-  textarea {
   width: 327px;
   margin-bottom: 20px;
-  margin-top:20px;
+  margin-top: 20px;
   background: #fbf8f7;
   outline: none;
   border: none;
