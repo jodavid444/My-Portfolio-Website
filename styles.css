@@ -63,6 +63,26 @@ header {
   background-position: bottom  right;
 }
 
+@keyframes SlideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes SlideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
 h1 {
   font-size: 54px;
   font-family: 'Crete Round', sans-serif;
@@ -306,7 +326,7 @@ button:hover {
 
 .about-btn {
   margin-left: 25px;
-  margin-top: 30px;
+  margin-top: 31px;
 }
 
 #tools {
@@ -466,6 +486,7 @@ footer .social-media::after {
     align-items: center;
     background-image: url("images/Illustration-header.png");
     background-size: contain;
+    animation: SlideInFromRight 1s ease-in;
   }
 
   h1 {
@@ -503,7 +524,7 @@ footer .social-media::after {
   .social-media li:hover .icons {
     color: gray;
     border: 1px solid gray;
-    border-radius: 50%;
+    border-radius: 55%;
     padding: 4px 6px;
   }
 
@@ -606,12 +627,14 @@ footer .social-media::after {
     margin: 8px;
     padding-bottom: 0;
     height: 450px;
+    transition: transform 0.2s ease-in;
   }
 
   .bg-img:hover {
     cursor: pointer;
     border: 1px solid #b8c1d4;
     box-shadow: 6px 8px 4px rgb(122, 117, 117);
+    transform: translateY(-15px);
   }
 
   .btn-desktop .body-content {
@@ -751,5 +774,9 @@ footer .social-media::after {
 
   form .btn {
     text-align: left;
+  }
+
+  #main-article {
+    animation: SlideInFromLeft 1s ease-in-out;
   }
 }
