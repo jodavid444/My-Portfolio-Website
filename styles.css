@@ -63,24 +63,23 @@ header {
   background-position: bottom  right;
 }
 
-
 @keyframes SlideInFromLeft {
   0% {
-      transform: translateX(-100%);
+    transform: translateX(-100%);
   }
 
   100% {
-      transform: translateX(0);
+    transform: translateX(0);
   }
 }
 
 @keyframes SlideInFromRight {
   0% {
-      transform: translatex(100%);
+    transform: translateX(100%);
   }
 
   100% {
-      transform: translateX(0);
+    transform: translateX(0);
   }
 }
 
@@ -488,7 +487,6 @@ footer .social-media::after {
     background-image: url("images/Illustration-header.png");
     background-size: contain;
     animation: SlideInFromRight 1s ease-in;
-    
   }
 
   h1 {
@@ -777,7 +775,6 @@ footer .social-media::after {
   form .btn {
     text-align: left;
   }
-
 
   #main-article {
     animation: SlideInFromLeft 1s ease-in-out;
