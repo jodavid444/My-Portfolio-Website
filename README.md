@@ -11,10 +11,10 @@ Major languages: HTML & CSS
 Frameworks (none)
 Technologies used (git & Github, Linters)
 
-Live Demo (if available)
+Have access to this astounding project by : heading over to "https://jodavid444.github.io/Portfolio/" to view the live url of this website.
 
 Have access to this astounding project by :
-heading over to "https://jodavid444.github.io/Portfolio/" to view the live url of this website.
+heading over to "https://jodavid444.github.io/Portfolio/" to view the live url of 
 
 Links
 
