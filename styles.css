@@ -14,7 +14,7 @@ p {
   line-height: 24px;
 }
 
-/************Header Section*************************/
+/************  Header Section  *************************/
 header,
 #header_content {
   background: #3c3a39;
@@ -241,16 +241,11 @@ ul > li {
   margin: 30px 0;
   padding-bottom: 0;
   transition: transform 0.2s ease-in;
-
 }
-
-
-
 
 .bg-img:hover {
   box-shadow: 8px 10px 10px rgb(122, 117, 117);
   transform: translateY(-15px);
-  
 }
 
 .bg-img .body-content {
@@ -590,7 +585,6 @@ footer .social-media::after {
     top: 20px;
   }
 
-  
   .pr-1 {
     grid-column: 1/4;
     display: flex;
