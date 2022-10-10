@@ -12,7 +12,15 @@ Frameworks (none)
 Technologies used (git & Github, Linters)
 
 Live Demo (if available)
- (https://github.com/jodavid444/Portfolio)
+
+Have access to this astounding project by :
+heading over to "https://jodavid444.github.io/Portfolio/" to view the live url of this website.
+
+Links
+
+Repositotry URL [https://github.com/jodavid444/Portfolio.git]
+Live URL [ https://jodavid444.github.io/Portfolio/]
+
 
 Getting Started
 
@@ -32,8 +40,11 @@ Open index.html in Chrome
 
 
 GitHub:(https://github.com/jodavid444)
+
 Twitter:(https://twitter.com/jodavid444)
+
 LinkedIn:(https://linkedin.com/jodavid444)
+
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
