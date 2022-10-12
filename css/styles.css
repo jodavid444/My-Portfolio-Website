@@ -1,7 +1,8 @@
+
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
 }
 
@@ -37,8 +38,9 @@ header {
 
 #logo {
   margin-left: 25px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 700;
+  font-size: 19px;
 }
 
 #logo a {
@@ -47,9 +49,10 @@ header {
   font-size: 24px;
 }
 
-#logo:hover {
-  font-size: 40px;
+#profile {
+  font-size: 18px;
 }
+
 
 .nav-icon {
   font-size: 23px;
@@ -65,7 +68,7 @@ header {
   padding: 130px 25px 150px;
   background-image: url("images/illustration-header-mobile.png");
   background-repeat: no-repeat;
-  background-position: bottom  right;
+  background-position: bottom right;
 }
 
 @keyframes SlideInFromLeft {
@@ -90,7 +93,7 @@ header {
 
 h1 {
   font-size: 54px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   color: #ff6b00;
   margin-top: 0;
   width: 330px;
@@ -99,7 +102,7 @@ h1 {
 }
 
 .work-title h2 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-weight: 400;
   font-size: 30px;
   text-align: center;
@@ -108,7 +111,7 @@ h1 {
 
 #main h2 {
   color: #fff5e1;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 24px;
   margin-bottom: 13px;
@@ -152,7 +155,7 @@ button {
 
 .mail-icon {
   text-decoration: none;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 23px;
 }
 
@@ -197,7 +200,7 @@ hr {
 }
 
 .bg-img h3 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -205,7 +208,7 @@ hr {
 }
 
 .pr-1 h3 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-weight: 400;
   color: #091e42;
   font-size: 32px;
@@ -234,7 +237,7 @@ ul > li {
 
 .bg-img {
   padding-top: 68px;
-  background-image: url("images/Img\ Placeholder\ \(1\)\ \(1\).png");
+  background-image: url("css/ ");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -281,7 +284,7 @@ button:disabled {
 
 button:enabled {
   background-color: #f55800;
-  color: #ffff;
+  color: white;
 }
 
 button:hover {
@@ -311,7 +314,7 @@ button:hover {
 
 #about .body {
   padding-bottom: 65%;
-  background-image: url("images/Group.png");
+  background-image: url("image/");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -414,7 +417,7 @@ ul li input {
   margin-top: 20px;
   outline: none;
   border: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -450,7 +453,7 @@ footer .social-media::after {
   border-radius: 10px;
   bottom: 10px;
 }
-
+/* 
 @media (min-width: 768px) {
   #header_content {
     padding: 0 90px;
@@ -495,6 +498,7 @@ footer .social-media::after {
     align-items: center;
     background-image: url("images/Illustration-header.png");
     background-size: contain;
+    -webkit-animation: slideinfromright 1s ease-in;
     animation: SlideInFromRight 1s ease-in;
   }
 
@@ -588,6 +592,7 @@ footer .social-media::after {
   .pr-1 {
     grid-column: 1/4;
     display: flex;
+    -moz-column-gap: 20px;
     column-gap: 20px;
     height: 450px;
     margin-bottom: 10px;
@@ -666,27 +671,27 @@ footer .social-media::after {
 
   .pr-2 {
     position: relative;
-    background-image: url("images/Img\ Placeholder\ \(1\)\ \(1\).png");
+    background-image: url("images/Img Placeholder (1) (1).png");
   }
 
   .pr-3 {
-    background-image: url("images/Img\ Placeholder\ \(3\).png");
+    background-image: url("images/Img Placeholder (3).png");
   }
 
   .pr-4 {
-    background-image: url("images/Img\ Placeholder\ \(4\).png");
+    background-image: url("images/Img Placeholder (4).png");
   }
 
   .pr-5 {
-    background-image: url("images/Img\ Placeholder\ \(1\)\ \(1\).png");
+    background-image: url("images/Img Placeholder (1) (1).png");
   }
 
   .pr-6 {
-    background-image: url("images/Img\ Placeholder\ \(3\).png");
+    background-image: url("images/Img Placeholder (3).png");
   }
 
   .pr-7 {
-    background-image: url("images/Img\ Placeholder\ \(4\).png");
+    background-image: url("images/Img Placeholder (4).png");
   }
 
   .btn-desktop {
@@ -699,7 +704,7 @@ footer .social-media::after {
   }
 
   #about {
-    background-image: url("images/illustration-about\ me@2x.png");
+    background-image: url("images/illustration-about me@2x.png");
     background-repeat: no-repeat;
     background-position: top 80px right;
     background-size: 500px;
@@ -781,6 +786,7 @@ footer .social-media::after {
   }
 
   #main-article {
+    -webkit-animation: slideinfromleft 1s ease-in-out;
     animation: SlideInFromLeft 1s ease-in-out;
   }
-}
+} */
