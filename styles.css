@@ -479,6 +479,10 @@ input {
   outline: none;
 }
 
+label {
+  display: none;
+}
+
 .footer-ul input {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -899,10 +903,6 @@ input {
   .footer-ul,
   .footer-description {
     margin: 70px 0 50px 80px;
-  }
-
-  label {
-    display: none;
   }
 
   input {
