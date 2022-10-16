@@ -565,7 +565,7 @@ label {
 .footer-social-media .footer-icon {
   color: #505f79;
   font-size: 20px;
-} 
+}
 
 @media (min-width: 768px) {
   #header_content {
@@ -582,6 +582,7 @@ label {
   .menu-icon {
     visibility: hidden;
   }
+
   #logo a {
     color: inherit;
     text-decoration: none;
