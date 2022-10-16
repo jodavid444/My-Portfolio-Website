@@ -47,17 +47,27 @@ header {
   font-size: 20px;
 }
 
-.img-desktop {
-  display: none;
-}
-
 #nav-links {
   visibility: hidden;
 }
 
+.img-desktop {
+  visibility: hidden;
+}
+
+.menu-icon {
+  padding-right: 40px;
+}
+
+.links-a {
+  visibility: hidden;
+}
+
 .nav-icon {
-  margin-right: 30px;
+  display: flex;
+  justify-self: end;
   font-size: 23px;
+  color: white;
 }
 
 #hero {
@@ -70,7 +80,7 @@ header {
 }
 
 #hero h1 {
-  width: 80%;
+  width: 327px;
   color: #ff6b00;
   font-size: 56px;
   font-family: 'Crete Round', sans-serif;
@@ -84,6 +94,8 @@ header {
   font-size: 40px;
   font-weight: 400;
   font-family: 'Crete Round', sans-serif;
+  width: 327px;
+  text-align: center;
 }
 
 .work-title h2 {
@@ -182,7 +194,7 @@ header {
 .work-hr {
   margin-top: 30px;
   position: relative;
-  width: 89%;
+  width: 100%;
 }
 
 #work-item {
@@ -191,6 +203,7 @@ header {
 
 .work-img {
   width: 100%;
+  height: 250px;
 }
 
 .work-description {
@@ -204,7 +217,7 @@ header {
   font-style: normal;
   font-family: 'Crete Round', sans-serif;
   line-height: 40px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .work-description p {
@@ -232,7 +245,7 @@ header {
 }
 
 .work-btn-con {
-  margin: 25px 0;
+  margin: 30px 0;
 }
 
 .work-btn {
@@ -552,7 +565,7 @@ label {
 .footer-social-media .footer-icon {
   color: #505f79;
   font-size: 20px;
-}
+} 
 
 @media (min-width: 768px) {
   #header_content {
@@ -566,10 +579,9 @@ label {
     z-index: 1;
   }
 
-  .nav-icon {
+  .menu-icon {
     visibility: hidden;
   }
-
   #logo a {
     color: inherit;
     text-decoration: none;
@@ -581,8 +593,11 @@ label {
   #nav-links {
     display: flex;
     margin-right: 130px;
-    height: 60px;
     visibility: visible;
+  }
+
+  .menu {
+    visibility: hidden;
   }
 
   .list-1 li {
@@ -897,7 +912,7 @@ label {
     font-size: 35px;
     line-height: 52px;
     color: #172b4d;
-    width: 1000px;
+    width: 90%;
   }
 
   .footer-ul,
