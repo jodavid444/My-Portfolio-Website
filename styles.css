@@ -593,8 +593,9 @@ label {
 
   #nav-links {
     display: flex;
-    margin-right: 130px;
     visibility: visible;
+    justify-content: space-between;
+    padding-left: 200px;
   }
 
   .menu {
@@ -606,14 +607,14 @@ label {
   }
 
   #nav-links li {
-    padding-right: 30px;
+    padding-right: 40px;
   }
 
   #nav-links a {
     text-decoration: none;
     color: #fff;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 19px;
+    font-weight: 400;
   }
 
   .fa-envelope {
