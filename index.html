@@ -17,7 +17,7 @@
     <header>
         <div id="header_content">
             <div id="logo">
-                <a href="#profile">Joseph David</a>
+                <a class="logo-link" href="#profile">Joseph David</a>
             </div>
             <nav>
                 <i class="fa-solid fa-bars nav-icon"></i>
@@ -82,45 +82,49 @@
             </li>
         </ul>
     </section>
-<!----------------Work Section------------------------------->
+    <!--------------Work Section----------------------------->
     <section id="work-section">
-        <div id="work-content">
-            <div class="work-title">
-                <div class="work-header">
-                    <h2>My Recent Works</h2>
+        <div id="work-title">
+            <div class="work-header">
+                <h2>My Recent Works</h2>
+            </div>
+            <div class="horizontal-line">
+                <hr class="work-hr">
+            </div>
+        </div>
+    <!----------------Work Header--------------------------->
+        <div id="work-item">
+            <div class="project work-context pr-1">
+                <div class="work-img">
+                    <img class="img-mobile" src="images/Img Placeholder.png" alt="mobile-img">
+                    <img class="img-desktop" src="images/Img Placeholder.png" alt="desktop-img">
                 </div>
-                <div class="horizontal-line">
-                    <hr>
+                <div class="work-item-content">
+                    <div class="work-description">
+                        <h3>Multi-Post Stories</h3>
+                        <p>
+                            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
+                        </p>
+                        <ul class="work-ul">
+                            <li>css</li>
+                            <li>html</li>
+                            <li>bootstrap</li>
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
+                    <div class="work-btn-con">
+                    <a href="">
+                        <a class="work-btn" href="">
+                            See Project
+                        </a>
+                    </a>
+                    </div>
                 </div>
             </div>
-            <ul id="work-item">
-                <li class="project pr-1">
-                    <div class="work-img">
-                        <img class="img-mobile" src="images/Img Placeholder.png" alt="mobile-img">
-                        <img class="img-desktop" src="images/Img Placeholder.png" alt="desktop-img">
-                    </div>
-                    <div class="work-item-content">
-                        <div class="work-description">
-                            <h3>Multi-Post Stories</h3>
-                            <p>
-                                A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-                            </p>
-                            <ul class="work-ul">
-                                <li>css</li>
-                                <li>html</li>
-                                <li>bootstrap</li>
-                                <li>Ruby</li>
-                            </ul>
-                        </div>
-                        <div class="work-btn-con">
-                        <a href="">
-                            <a class="work-btn" href="">
-                                See Project
-                            </a>
-                        </a>
-                        </div>
-                    </div>
-                </li>
+        </div>
+        <!--------------Background Cards------------------------------------------->
+        <div id="work-container">
+            <ul class="work-content">
                 <li class="project pr-2 bg-img ">
                     <div class="body-content">
                         <h3>Profesional Art Printing Data</h3>
@@ -159,7 +163,7 @@
                 </li>
                 <li class="project pr-4 bg-img btn-desktop">
                     <div class="body-content">
-                        <h3>Profesional Art Printing Data</h3>
+                        <h3>Website Portfolio</h3>
                         <p>
                             A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
                         </p>
@@ -231,7 +235,7 @@
                 </li>
             </ul>
         </div>
-    </section>
+    </section> 
     <!-----------------About Section---------------------------------->
     <section id="about">
         <div id="about-content">
@@ -246,7 +250,7 @@
                     </a>
                 </div>
             </div>
-            <hr>
+            <hr class="about-hr">
             <ul id="tools">
                 <li class="list-1">
                     <h2>Language</h2>
@@ -288,15 +292,16 @@
             <form action="https://formspree.io/f/mwkzoakw" method="post" id="form">
                 <div class="footer-ul">
                     
-                        <input type="text" name="full name" id="name" placeholder="Full name" required maxlength="30">
-                    
-                        <input type="email" name="email" id="email" placeholder="Email address" required>
-                    
-                        <textarea name="textarea" id="textarea" cols="30" rows="10" maxlength="500" required placeholder="Enter text here"></textarea>
+                    <label for="name">Full name</label> 
+                    <input type="text" name="full name" id="name" placeholder="Full name" required maxlength="30">
+                    <label for="email">Email adress</label> 
+                    <input type="email" name="email" id="email" placeholder="Email address" required>
+                    <label for="textarea">Enter text here</label> 
+                    <textarea name="textarea" id="textarea" cols="30" rows="10" maxlength="500" required placeholder="Enter text here"></textarea>
                     
                     <div class="footer-btn-con">
-                        <a class="footer-btn" href="#">
-                            Get in touch
+                        <a href="#">
+                            <button class="footer-btn" type="submit">Get in touch</button>
                         </a>
                     </div>
                 </div>
@@ -305,27 +310,27 @@
         <ul class="footer-social-media">
             <li id="github">
                 <a  class="icons"href="https://github.com/jodavid444">
-                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands  footer-icon fa-github"></i>
                 </a>
             </li>
             <li id="linkedin">
                 <a class="icons" href="https://www.linkedin.com/in/joseph-david-01a8a5243/">
-                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands  footer-icon fa-linkedin-in"></i>
                 </a>
             </li>
         <li id="angalist">
                 <a class="icons" href="https://www. angalist.ng">
-                    <i class="fa-brands fa-angellist"></i>
+                    <i class="fa-brands  footer-icon fa-angellist"></i>
                 </a>
             </li>
             <li id="twittwr">
                 <a  class="icons" href="https://twitter.com/jodavid444dave">
-                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands footer-icon fa-twitter"></i>
                 </a>
             </li>
             <li id="gmail">
                 <a class="icons " href="jodavid444dave@gmail.com">
-                    <i class="fa-sharp fa-solid fa-m"></i>
+                    <i class="fa-sharp footer-icon fa-solid fa-m"></i>
                 </a>
             </li>
             
