@@ -901,6 +901,10 @@ input {
     margin: 70px 0 50px 80px;
   }
 
+  label {
+    display: none;
+  }
+
   input {
     border: none;
     outline: none;
