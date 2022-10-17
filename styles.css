@@ -15,6 +15,58 @@ p {
   line-height: 24px;
 }
 
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  width: 25px;
+  height: 15px;
+  justify-content: space-between;
+  margin-right: 25px;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.bar {
+  width: 100%;
+  height: 3px;
+  background: #FFF;
+  border-radius: 10px;
+}
+
+.nav-bar {
+  width: 100%;
+  display: none;
+}
+
+.nav-bar .active {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100vh;
+  top: 20px;
+  /* visibility: visible; */
+}
+
+.nav-bar ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.nav-bar ul  li {
+  list-style-type: none;
+}
+
+.link a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+
+
 header,
 #header_content {
   background: #3c3a39;
