@@ -1,3 +1,4 @@
+
 /* eslint-disable linebreak-style */
 const menuIcon = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
@@ -24,6 +25,7 @@ linksItem3.addEventListener('click', () => {
   navMenu.style.transform = 'translateX(-500%)';
   headerContent.style.height = '60px';
 });
+
 
 closeBtn.addEventListener('click', () => {
   navMenu.style.transform = 'translateX(-500%)';
