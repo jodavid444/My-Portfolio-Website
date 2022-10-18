@@ -7,7 +7,7 @@ Description of the poject
  This project is an astounding project it contains list of extremely impresive website and applications I have built currently. Dont delay to reach out to me to create a website similar to mine or would love me to create anything of your choice.
 
 Built With
-Major languages: HTML & CSS
+Major languages: HTML & CSS $ JAVASCRIPT
 Frameworks (none)
 Technologies used (git & Github, Linters)
 
@@ -39,12 +39,22 @@ Clone the GitHub Repository
 
 Open index.html in Chrome
 
+Author 1
 
 GitHub:(https://github.com/jodavid444)
 
 Twitter:(https://twitter.com/jodavid444)
 
 LinkedIn:(https://linkedin.com/jodavid444)
+
+
+Author 2 Amrit Mishra
+
+GitHub:(https://github.com/Amrit131)
+
+Twitter:(https://twitter.com/i_ammrit)
+
+LinkedIn:(https://www.linkedin.com/in/mishra-amrit/)
 
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
