@@ -29,5 +29,3 @@ closeBtn.addEventListener('click', () => {
   navMenu.style.transform = 'translateX(-500%)';
   headerContent.style.height = '60px';
 });
-
-console.log(headerContent);
