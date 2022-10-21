@@ -21,6 +21,13 @@ ul {
   display: none;
 }
 
+#text-form {
+  width: 80%;
+  color: red;
+  margin: 0;
+  font-weight: 500;
+}
+
 .popup-container a {
   text-decoration: none;
   color: white;
