@@ -11,6 +11,28 @@ ul {
   list-style-type: none;
 }
 
+.text {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.text2 {
+  display: none;
+}
+
+.popup-container a {
+  text-decoration: none;
+  color: white;
+  background: #f55800;
+  margin-right: 20px;
+  padding: 10px 10px;
+}
+
+.footer-img {
+  width: 15px;
+}
+
 p {
   line-height: 24px;
 }
@@ -128,6 +150,13 @@ header {
   background-image: url('images/illustration-header-mobile.png');
   background-repeat: no-repeat;
   background-position: bottom right;
+}
+
+.popup-container h1 {
+  padding-bottom: 25px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
 }
 
 #hero h1 {
@@ -293,6 +322,32 @@ header {
   margin-right: 20px;
 }
 
+.popup-container {
+  position: fixed;
+  top: 5px;
+  right: 0;
+  left: 0;
+  background: #fff;
+  height: 93%;
+  width: 90%;
+  margin: 7px auto;
+  padding: 20px;
+  z-index: 10;
+  opacity: 5;
+}
+
+.main.act {
+  opacity: 1;
+  background-color: #4d4b4b;
+  mix-blend-mode: darken;
+}
+
+.header-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .work-ul li {
   border: 1px solid #8993a4;
   background: #fff;
@@ -306,6 +361,30 @@ header {
 
 .footer-social-media li {
   margin: 30px 8px;
+}
+
+.close {
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.popup-container ul {
+  display: flex;
+  padding: 25px 0;
+}
+
+.popup-container ul li {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #3c3a39;
+  font-weight: 600;
+  border: 1px solid #dfe1e6;
+  padding: 5px 15px;
+  margin-right: 8px;
+}
+
+.card-img {
+  width: 100%;
 }
 
 .nav-items ul li {
@@ -329,6 +408,9 @@ header {
   text-align: center;
   font-size: 17px;
   font-weight: bold;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
 .work-btn:hover {
@@ -643,6 +725,14 @@ label {
     visibility: hidden;
   }
 
+  .popup-container a {
+    text-decoration: none;
+    color: white;
+    background: #f55800;
+    margin-right: 32px;
+    padding: 10px 20px;
+  }
+
   #logo a {
     color: inherit;
     text-decoration: none;
@@ -664,6 +754,18 @@ label {
 
   .list-1 li {
     margin-left: 20px;
+  }
+
+  .popup-container ul li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #3c3a39;
+    font-weight: lighter;
+    border: 1px solid #dfe1e6;
+    padding: 5px 15px;
+    margin-right: 8px;
+    line-height: 1.5;
+    font-style: normal;
   }
 
   #nav-links li {
@@ -688,6 +790,14 @@ label {
   #hero-article {
     padding: 0 90px;
     width: 700px;
+  }
+
+  .popup-container h1 {
+    padding-bottom: 5px;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Crete Round', sans-serif;
+    line-height: 40px;
   }
 
   #hero h1,
@@ -816,6 +926,74 @@ label {
     margin: 40px 0;
   }
 
+  .popup-container {
+    position: fixed;
+    top: 10px;
+    right: 0;
+    left: 0;
+    background: #fff;
+    height: 85%;
+    width: 89%;
+    margin: 7px auto;
+    padding: 20px;
+    z-index: 10;
+    opacity: 5;
+  }
+
+  .flex-con {
+    display: flex;
+  }
+
+  .header-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .close {
+    margin-bottom: 30px;
+  }
+
+  .popup-container ul {
+    display: flex;
+    padding: 5px 0  40px;
+  }
+
+  span {
+    margin-left: 310px;
+  }
+
+  .imgage-container {
+    height: 40%;
+  }
+
+  .card-img {
+    width: 168%;
+    height: 300px;
+  }
+
+  .text {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    display: none;
+  }
+
+  .text2 {
+    display: flex;
+    justify-items: flex-end;
+    width: 400px;
+    margin-left: 310px;
+    padding-bottom: 25px;
+    color: #344563;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .footer-img {
+    width: 15px;
+  }
+
   .bg-img h3 {
     color: #fff;
     font-weight: 400;
@@ -859,7 +1037,7 @@ label {
 
   .pr-4 {
     position: relative;
-    background-image: url('images/Img\ Placeholder\ \(4\).png');
+    background-image: url('images/Img\ Placeholder\ \(6\).png');
   }
 
   .pr-7 {
