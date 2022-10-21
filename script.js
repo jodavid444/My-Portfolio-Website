@@ -1,6 +1,6 @@
 const projects = {
     one: {
-      title: 'Multi-Post Stories Info',
+      title: 'Multi-Post Stories',
       title1: 'Keeping tracks of hundreds of components website',
       description:
         "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
