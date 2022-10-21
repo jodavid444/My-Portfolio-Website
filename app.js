@@ -1,3 +1,5 @@
+
+/* eslint-disable linebreak-style */
 const menuIcon = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 const closeBtn = document.querySelector('.close-btn-container').children[0];
@@ -11,22 +13,21 @@ menuIcon.addEventListener('click', () => {
   headerContent.style.height = '100%';
 });
 
-linksItem1.addEventListener('click', () =>  {
+linksItem1.addEventListener('click', () => {
   navMenu.style.transform = 'translateX(-500%)';
   headerContent.style.height = '60px';
-})
-linksItem2.addEventListener('click', () =>  {
+});
+linksItem2.addEventListener('click', () => {
   navMenu.style.transform = 'translateX(-500%)';
   headerContent.style.height = '60px';
-})
-linksItem3.addEventListener('click', () =>  {
+});
+linksItem3.addEventListener('click', () => {
   navMenu.style.transform = 'translateX(-500%)';
   headerContent.style.height = '60px';
-})
+});
+
 
 closeBtn.addEventListener('click', () => {
   navMenu.style.transform = 'translateX(-500%)';
   headerContent.style.height = '60px';
 });
-
-console.log(headerContent);
