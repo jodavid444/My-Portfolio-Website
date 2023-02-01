@@ -12,7 +12,7 @@ Major languages: HTML & CSS $ JAVASCRIPT
 
 Frameworks (none)
 
-Technologies used (git & Github, Linters)
+Technologies used (git & Github, Linters, Eslint)
 
 Have access to this astounding project by : heading over to 
 
