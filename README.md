@@ -7,13 +7,19 @@ Description of the poject
  This project is an astounding project it contains list of extremely impresive website and applications I have built currently. Dont delay to reach out to me to create a website similar to mine or would love me to create anything of your choice.
 
 Built With
+
 Major languages: HTML & CSS $ JAVASCRIPT
+
 Frameworks (none)
+
 Technologies used (git & Github, Linters)
 
-Have access to this astounding project by : heading over to "https://jodavid444.github.io/Portfolio/" to view the live url of this website.
+Have access to this astounding project by : heading over to 
+
+"https://jodavid444.github.io/Portfolio/" to view the live url of this website
 
 Have access to this astounding project by :
+
 heading over to "https://jodavid444.github.io/Portfolio/" to view the live url of 
 
 Links
