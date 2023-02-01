@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Poppins:wght@700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/b21ce73c3c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="main">
+    <!------------Header Section-------------------------->
+    <header>
+        <div id="header_content">
+            <div id="logo">
+                <a class="logo-link" href="#profile">Joseph David</a>
+            </div>
+            <div class="nav-menu">
+                <div class="close-btn-container">
+                    <img src="images/Icon.png" alt="close-btn">
+                </div>
+                <div class="nav-items">
+                    <ul>
+                        <li><a class="links-item1"  href="#work-section">Portfolio</a></li>
+                        <li><a class="links-item2"  href="#about">About</a></li>
+                        <li><a class="links-item3"  href="#footer">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <nav>
+                <ul id="nav-links">
+                    <li>
+                        <a  href="#home">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#form">
+                            Contact
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#mail">
+                            <i class="fa-regular fa-envelope fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"id="bar1"></span>
+                <span class="bar"id="bar2"></span>
+                <span class="bar"id="bar3"></span>
+            </div>
+        </div>
+    </header>
+    <!----------------Hero Section-------------------------->
+    <section id="hero">
+        <article id="hero-article">
+            <h1>Hey There. I’m Joseph</h1>
+            <h2>I’m a Software Developer</h3>
+            <p class="description">I can help you build a product , feature or website Look through some 
+                of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+        </article>
+        <ul class="mobile_social_media">
+            <li id="github">
+                <a  class="icons"href="https://github.com/jodavid444">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+            <li id="linkedin">
+                <a class="icons" href="https://www.linkedin.com/in/joseph-david-01a8a5243/">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li id="angalist">
+                <a class="icons" href="https://www. angalist.ng">
+                    <i class="fa-brands fa-angellist"></i>
+                </a>
+            </li>
+            <li id="twittwr">
+                <a  class="icons" href="https://twitter.com/jodavid444dave">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+            <li id="gmail">
+                <a class="icons " href="jodavid444dave@gmail.com">
+                    <i class="fa-sharp fa-solid fa-m"></i>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <!--------------Work Section----------------------------->
+    <section id="work-section">
+    </section> 
+    <!-----------------About Section---------------------------------->
+    <section id="about">
+        <div id="about-content">
+            <div class="about-body">
+                <h1>About Me</h1>
+                <p class="description about-description">
+                    Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+                </p>
+                <div class="about-btn-con">
+                    <a class="about-btn" href="">
+                        Get My Resume
+                    </a>
+                </div>
+            </div>
+            <hr class="about-hr">
+            <ul id="tools">
+                <li class="list-1">
+                    <h2>Language</h2>
+                    <ul>
+                        <li>Ruby</li>
+                        <li>Html</li>
+                        <li>Css</li>
+                    </ul>
+                </li>
+                <li class="list-2">
+                    <h2>Frameworks</h2>
+                    <ul>
+                        <li>Bootstrap</li>
+                        <li>Ruby on Rails</li>
+                        <li>RSPec</li>
+                        <li>CapyBara</li>
+                        <li>Selenium</li>
+                    </ul>
+                </li>
+                <li class="list-3">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>Codekit</li>
+                        <li>Github</li>
+                        <li>Codepen</li>
+                        <li>Gitlab</li>
+                        <li>Terminal</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!---------------Footer Section------------------------------->
+    <footer id="footer">
+        <div class="footer-content">
+            <h2 class="footer-description">
+                I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+            </h2>
+            <form action="https://formspree.io/f/mwkzoakw" method="post" id="form">
+                <div class="footer-ul">
+                    
+                    <label for="name">Full name</label> 
+                    <input type="text" name="full name" id="name" placeholder="Full name" required maxlength="30">
+                    <label for="email">Email adress</label> 
+                    <input type="email" name="email" id="email" placeholder="Email address" required>
+                    <label for="textarea">Enter text here</label> 
+                    <textarea name="textareaform" id="textarea" cols="30" rows="10" maxlength="500" required placeholder="Enter text here"></textarea>
+                    <span id="text-form"></span>                
+                    <div class="footer-btn-con">
+                        <!-- <a href="#"> -->
+                            <button id="footer-btn" class="footer-btn" type="button" onclick="verify()">Get in touch</button>
+                        <!-- </a> -->
+                    </div>
+                </div>
+            </form>
+        </div>
+        <ul class="footer-social-media">
+            <li id="github">
+                <a  class="icons"href="https://github.com/jodavid444">
+                    <i class="fa-brands  footer-icon fa-github"></i>
+                </a>
+            </li>
+            <li id="linkedin">
+                <a class="icons" href="https://www.linkedin.com/in/joseph-david-01a8a5243/">
+                    <i class="fa-brands  footer-icon fa-linkedin-in"></i>
+                </a>
+            </li>
+        <li id="angalist">
+                <a class="icons" href="https://www. angalist.ng">
+                    <i class="fa-brands  footer-icon fa-angellist"></i>
+                </a>
+            </li>
+            <li id="twittwr">
+                <a  class="icons" href="https://twitter.com/jodavid444dave">
+                    <i class="fa-brands footer-icon fa-twitter"></i>
+                </a>
+            </li>
+            <li id="gmail">
+                <a class="icons " href="jodavid444dave@gmail.com">
+                    <i class="fa-sharp footer-icon fa-solid fa-m"></i>
+                </a>
+            </li>
+            
+        </ul>
+    </footer>
+    <script src="./app.js"></script>
+    <script src="script.js"></script>
+    <script src="form.js"></script>
+</main>
+</body>
+</html>
