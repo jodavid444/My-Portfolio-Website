@@ -1241,10 +1241,10 @@ header,
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 47px;
     width: 30vw;
-    padding-left: 50px;
+    padding-left: 100px;
     text-align: left;
     margin-top: 7vh;
   }
