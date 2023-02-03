@@ -67,7 +67,7 @@ const projects = {
       description1:
         "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
       description2: 
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam invent asperiores,   corrupti quos recusandae corrupti quos recusandae non ratione qui maxime blanditiis.",
+        "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
       description3: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam invent asperiores,corrupti quos recusandae corrupti quos recusandae non ratione qui maxime blanditiis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam invent asperiores,corrupti quos recusandae corrupti quos recusandae non ratione qui maxime blanditiis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam invent asperiores,corrupti quos recusandae corrupti quos recusandae non ratione qui maxime blanditiis.",
       featured_image: {
       mobile:'images/Snapshoot Portfolio.png',
@@ -165,7 +165,8 @@ main.innerHTML = `   <div id="work-title">
 <div class="project work-context pr-1">
     <div class="work-img">
         <img class="img-mobile" src="images/Img Placeholder.png" alt="mobile-img">
-        <img class="img-desktop" src="images/Img Placeholder.png" alt="desktop-img">
+        <img src="images/Img Placeholder (8).png" alt="desktop-image" class="desktop-image">
+        
     </div>
     <div class="work-item-content">
         <div class="work-description">
@@ -362,3 +363,4 @@ close.addEventListener('click', () => {
 
     });
 });
+
